@@ -1,15 +1,15 @@
 # mother_of_ussd_template
 A Template for USSD Service     
-######"mother_of_ussd": "5.6.0"
+<code>"mother_of_ussd": "5.6.0"</code>
 
 
-##Installation
+#Installation
   1. Clone the repo <code>git clone https://github.com/timo-engnz/mother_of_ussd_template.git</code>
   2. Run <code>cd mother_of_ussd_template && npm install</code><br/>or<br/><code>cd mother_of_ussd_template && yarn install</code>
   3. To run HTTP|HTTPS Endpoints: <code>node index.js</code>
   4. To run/Test on terminal: <code>node terminal.js</code>
   
-##Test
+#Test
 MOU default USSD endpoint is:
 ```
 Endpoint Sample
@@ -31,7 +31,7 @@ curl -X GET \
   -H 'cache-control: no-cache'
 ```
 
-##Structure
+#Structure
 - config: <code>Hosts Configuration Files</code>
 - hooks:  <code>USSD Flow Files</code>
 - utils: <code>Your Application Logic</code>
@@ -39,7 +39,7 @@ curl -X GET \
 - terminal.js: <code>Test on terminal</code>
 -  package.json 
 
-##Hooks
+#Hooks
 MOU uses hooks, arranged by a key 'code'. In folder <code>./hooks</code>, all the hooks are registered in the <code>__hooks__.js</code>
 
 ```javascript
@@ -63,7 +63,7 @@ module.exports = [
 ];
 
 ```
-##Example Hook
+#Example Hook
 Below is a sample hook with all the possible functions
 ```javascript
 
