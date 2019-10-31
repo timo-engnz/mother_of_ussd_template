@@ -1,0 +1,18 @@
+{
+  "development": {
+    "BusinessName": "",
+    "consumerKey": "",
+    "consumerSecret": "",
+    "environment": "production",
+    "shortCode": "",
+    "initiatorName": "",
+    "lipaNaMpesaShortCode": "",
+    "lipaNaMpesaShortPass": "",
+    "securityCredential": "<credential here>",
+    "certPath": "myKey.cert",
+    "c2b_validation_url": "https://example.org/m-pesa/c2b/validate",
+    "c2b_confirmation_url": "https://example.org/m-pesa/c2b/confirm",
+    "stk_callback_url": "https://example.org/m-pesa/stk/callback"
+
+  }
+}

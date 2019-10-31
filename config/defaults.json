@@ -1,0 +1,9 @@
+{
+  "development": {
+    "expressPort": "3000",
+    "expressHTTPSPort": "3443",
+    "localStorageName": "mou_sample",
+    "activate_go_back": false,
+    "activate_go_home": false
+  }
+}

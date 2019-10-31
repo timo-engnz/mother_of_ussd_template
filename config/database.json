@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "localhost",
+    "port": 0,
+    "dialect": ""
+  }
+}

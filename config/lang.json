@@ -1,0 +1,7 @@
+{
+  "development": {
+    "en": {
+      "WELCOME": "Welcome {name} to MOU"
+    }
+  }
+}
