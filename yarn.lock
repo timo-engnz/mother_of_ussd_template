@@ -248,14 +248,6 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@^0.18.0:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
-  integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
-  dependencies:
-    follow-redirects "1.5.10"
-    is-buffer "^2.0.2"
-
 axios@^0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
@@ -1251,9 +1243,9 @@ has@^1.0.1, has@^1.0.3:
     function-bind "^1.1.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 http-errors@1.7.2:
   version "1.7.2"
@@ -1849,13 +1841,6 @@ mother_of_ussd@5.6.0:
     sequelize "^5.7.5"
     sequelize-auto "^0.4.29"
     string-template "^1.0.0"
-
-mpesa-node@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/mpesa-node/-/mpesa-node-0.1.3.tgz#424fecbd2f2328bca5dcfec470f721b4c62ad115"
-  integrity sha512-9ZimaSTrcrP+e//sj8ntCCWQxB1XIHWmH/SlAdjXji73zSCqPicUF7bMCmb+M/7RmBCEm+4NNpOPgGj60uUDPw==
-  dependencies:
-    axios "^0.18.0"
 
 ms@2.0.0:
   version "2.0.0"
